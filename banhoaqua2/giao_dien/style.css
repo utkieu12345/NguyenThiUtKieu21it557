@@ -1,0 +1,112 @@
+/*/* CSS Document */
+
+body{
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+}
+ 
+#main{
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    height: 100px;
+    background-color: #F5F5F5;
+    border: 1px solid #CDCDCD;
+    margin-bottom:5px;
+}
+#head-link{
+     height: 30px;
+     line-height: 5px;
+     padding-left: 10px;
+     padding-right: 10px;
+     border: 1px solid #CDCDCD;
+     background-color: #F5F5F5;
+     margin-bottom:5px;
+     clear: both;
+}
+#left{
+     width: 150px;
+     min-height: 400px;
+     border: 1px solid #CDCDCD;
+     float:left;
+    /* background-color: #004C00;*/
+     margin-bottom: 5px;
+}
+#content{
+     width: 600px;
+     min-height: 400px;
+     border: 1px solid #CDCDCD;
+     float:left;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+}
+#right{
+     width: 234px;
+     min-height: 400px;
+     border: 1px solid #CDCDCD;
+     float:right;
+     margin-bottom: 5px;
+}
+#footer{
+     height: 50px;
+     clear: both;
+     border: 1px solid #CDCDCD;
+     background-color: #F8F8FF;
+}
+/*menu ngang*/
+#head-link li
+{
+	color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+
+}
+
+
+
+/* menu */
+#menu ul {
+/*  background: #8AD385; */
+ width: 150px;
+ padding: 0;
+ list-style-type: none;
+ text-align: left;
+}
+#menu li {
+ width: auto;
+ height: 40px;
+ line-height: 40px;
+ border-bottom: 1px solid #e8e8e8;
+ padding: 0 1em;
+}
+#menu li a {
+ text-decoration: none;
+ color: #333;
+ font-weight: bold;
+ display: block;
+}
+#menu li:hover {
+ background: #CDE2CD;
+}
+#menu ul li {
+ position: relative;
+}
+#menu .sub-menu {
+ position: absolute;
+ left: 250px;
+ top: 0;
+}
+
+#menu .sub-menu {
+ position: absolute;
+ left: 150px;
+ top: 0;
+ display: none;
+}
+#menu li:hover .sub-menu {
+ display: block;
+} CSS Document */
